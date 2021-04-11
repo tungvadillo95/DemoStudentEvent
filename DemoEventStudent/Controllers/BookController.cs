@@ -21,10 +21,10 @@ namespace DemoEventStudent.Controllers
             var books = await bookRepository.Gets();
             return View(books);
         }
-        public async Task<IActionResult> Gets()
-        {
-            var books = await bookRepository.Gets();
-            return Ok(books);
-        }
+        //public async Task<IActionResult> Gets()
+        //{
+        //    var books = await bookRepository.Gets();
+        //    return Ok(books);
+        //}
     }
 }
